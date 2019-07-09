@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HeifAndroid</string>
+    <string name="heif_encode">Encode to heif</string>
+    <string name="heif_decode">Decode to Bitmap</string>
+    <string name="use_res_from_assets">Use HEIF from assets</string>
+    <string name="heif_yuv_encode">Encode YUV to HEIF</string>
+</resources>
