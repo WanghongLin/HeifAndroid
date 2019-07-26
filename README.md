@@ -11,6 +11,8 @@ Remove all assembly implementation of x265 in order to avoid `TEXTREL` problem, 
 
 The main and very simple JNI wrapper can be found at [heif_jni.cpp](libheif/src/main/cpp/heif_jni.cpp), accept input format rgba(can easily obtained from bitmap in Android) and yuv, produce output format is rgba which can be used easily to create a bitmap in Android.
 
+__NOTE__: `libheif.so` include debug info, not stripped, its size can be smaller with debug info stripped if you are going to integrate inside your released product, and `x86` and `x86_64` architectures are not tested.
+
 View encoded output on macOS
 ------
 
